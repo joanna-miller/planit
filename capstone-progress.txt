@@ -1,0 +1,31 @@
+CAPSTONE PROGRESS
+
+7-8:30am
+Work on layout diagram and component diagram
+https://app.diagrams.net/#G1TiW-cz8JSpqygVjS9U7tjhVN2tWHOd4P
+
+8:30-9:30am 
+Followed tutorial to implement firebase-auth in new project:
+https://medium.com/firebase-developers/how-to-setup-firebase-authentication-with-react-in-5-minutes-maybe-10-bb8bb53e8834
+(lol @ the article name compared to how long it took me)
+
+9:30-10am
+Working through Weather API tutorial: 
+https://rapidapi.com/blog/weather-app-react/
+
+10-11am
+Worked through Epicodus lesson to make API call to NYT with React:
+https://www.learnhowtoprogram.com/react/react-with-apis/making-an-api-call-with-fetch
+
+11am - 1pm
+Follow Tutorial for embedding a map: 
+https://medium.com/@aliglenesk/how-to-embed-a-google-map-in-your-react-app-23866d759e92
+https://github.com/google-map-react/google-map-react
+
+Practice embedding map using Iframe: 
+https://developers.google.com/maps/documentation/embed/get-started?hl=en_US
+`$ npm install react-iframe`
+`import Iframe from 'react-iframe';`
+
+
+
