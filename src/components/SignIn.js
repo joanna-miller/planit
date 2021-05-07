@@ -3,7 +3,8 @@ import withFirebaseAuth from 'react-with-firebase-auth'
 import 'firebase/auth';
 import firebase from 'firebase/app';
 import firebaseApp from './../firebaseConfig';
-
+import { Nav } from 'react-bootstrap';
+ 
 class SignIn extends Component {
   render() {
     const {
@@ -15,8 +16,8 @@ class SignIn extends Component {
     return (
       <>
         { user ? 
-        <button onClick={signOut}>Sign out</button> :
-        <button onClick={signInWithGoogle}>Sign in with Google</button> }
+        <Nav.Link onClick={signOut}>Sign out</Nav.Link> :
+        <Nav.Link onClick={signInWithGoogle}>Sign in with Google</Nav.Link>}
       </>
     )
   }
